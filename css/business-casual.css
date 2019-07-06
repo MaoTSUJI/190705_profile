@@ -437,7 +437,7 @@ p {
   width: 2px;
   margin-left: -1.5px;
   content: '';
-  background-color: #e9ecef;
+  background-color: #e6a756;
 }
 
 .timeline > li {
@@ -485,7 +485,7 @@ p {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  border: 7px solid #e6a756;
   border-radius: 100%;
   background-color: #fed136;
 }
@@ -606,4 +606,19 @@ p {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+}
+
+.icon-star{
+  color: rgba(47, 23, 15, 0.8);
+}
+.others{
+  width: 100%;
+  /*text-align: left;*/ 
+  /*padding-left: ;*/
+}
+.others .other-skills{
+  font-weight: 700;
+}
+.others .skills{
+  
 }
