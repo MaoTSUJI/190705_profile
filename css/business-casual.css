@@ -593,7 +593,7 @@ p {
     min-height: 170px;
   }
   .timeline > li .timeline-panel {
-    padding: 0 20px 20px 100px;
+    padding: 0 40px 20px 20px;
   }
   .timeline > li .timeline-image {
     width: 170px;
@@ -604,7 +604,7 @@ p {
     margin-top: 40px;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
-    padding: 0 100px 20px 20px;
+    padding: 0 20px 20px 40px;
   }
 }
 
@@ -621,4 +621,35 @@ p {
 }
 .others .skills{
   
+}
+
+.cta .cta-inner a {
+  position: relative;
+}
+.social-buttons li a {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  color: white;
+  border-radius: 100%;
+  outline: 0;
+  background-color: rgba(47, 23, 15, 0.8);
+  -webkit-transition-duration: 0.3s;
+}
+
+.social-buttons :hover{
+  background-color: #fed136;
+  border-radius: 100%;
+}
+
+.link-career {
+  margin-top: 8px;
+  padding: 10px;
+  width: 100%;
+}
+.link-career a {
+  color: white;
+  text-decoration: none;
 }
